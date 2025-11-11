@@ -21,7 +21,7 @@ class Product {
     public int getIlosc() { return ilosc; }
 }
 
-// ----- Model tabeli -----
+
 class ProductTableModel extends AbstractTableModel {
     private List<Product> produkty;
     private String[] nazwyKolumn = {"Nazwa", "Cena", "Ilość"};
